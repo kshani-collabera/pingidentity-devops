@@ -23,7 +23,7 @@ pingfederate-admin:
   workload:
     type: StatefulSet
   envs:
-    SERVER_PROFILE_URL: https://github.com/pingidentity/pingidentity-server-profiles.git
+    SERVER_PROFILE_URL: https://github.com/kshani-collabera/pingidentity-server-profiles.git
     SERVER_PROFILE_PATH: baseline/pingfederate
     PING_IDENTITY_ACCEPT_EULA: "YES"
    
@@ -40,7 +40,7 @@ pingfederate-engine:
       items:
         PingFederate-11.3-Development.lic: /opt/in/instance/server/default/conf/pingfederate.lic
   envs:
-    SERVER_PROFILE_URL: https://github.com/pingidentity/pingidentity-server-profiles.git
+    SERVER_PROFILE_URL: https://github.com/kshani-collabera/pingidentity-server-profiles.git
     SERVER_PROFILE_PATH: baseline/pingfederate
     PING_IDENTITY_ACCEPT_EULA: "YES"
 
